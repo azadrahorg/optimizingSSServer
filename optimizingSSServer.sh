@@ -64,8 +64,8 @@ net.core.default_qdisc=fq
 net.ipv4.tcp_congestion_control=bbr
 net.ipv4.tcp_fastopen = 3
 " >> /etc/sysctl.conf
-
 echo
 echo "=== Finished ==="
 echo
 sleep 1
+sysctl -p
