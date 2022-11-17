@@ -2,5 +2,5 @@
 
 ### Install
 ```bash
-bash -c "$(curl -L https://raw.githubusercontent.com/azadrahorg/dohCloudflared/main/dohCloudflared.sh)"
+bash -c "$(curl -L https://raw.githubusercontent.com/azadrahorg/optimizingSSServer/main/optimizingSSServer.sh)"
 ```
