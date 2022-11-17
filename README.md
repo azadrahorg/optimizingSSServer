@@ -1,4 +1,4 @@
-# DOH Cloudflared Installer For Ubuntu 22.04 Server
+# Optimizing Shadowsocks Server (Ubuntu 20.04 and 20.04) and BBR
 
 ### Install
 ```bash
