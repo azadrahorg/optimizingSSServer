@@ -39,7 +39,7 @@ echo "=== Optimizing ==="
 echo
 sleep 1
 
-grep -Fq 'jawj/IKEv2-setup' /etc/sysctl.conf || echo "
+grep -Fq 'azadrah-org' /etc/sysctl.conf || echo "
 # https://github.com/azadrah-org
 net.ipv4.ip_forward = 1
 net.ipv4.ip_no_pmtu_disc = 1
