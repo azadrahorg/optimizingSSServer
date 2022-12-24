@@ -72,6 +72,7 @@ root    hard    nofile     51200
 ' >> /etc/security/limits.conf
 ulimit -n 51200
 
+sysctl -p >/dev/null 2>&1
 
 echo
 echo "=== Finished ==="
