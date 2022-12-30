@@ -3,7 +3,7 @@
 
 echo
 echo "=== azadrah.org ==="
-echo "=== https://github.com/azadrah-org ==="
+echo "=== https://github.com/azadrahorg ==="
 echo "=== Optimizing Shadowsocks Server (Ubuntu 22.04 and 20.04) ==="
 echo
 sleep 3
@@ -40,7 +40,7 @@ echo
 sleep 1
 
 grep -Fq 'azadrah-org' /etc/sysctl.conf || echo "
-# https://github.com/azadrah-org
+# https://github.com/azadrahorg
 net.ipv4.ip_forward = 1
 net.ipv4.ip_no_pmtu_disc = 1
 fs.file-max = 51200
@@ -65,8 +65,8 @@ net.ipv4.tcp_congestion_control=bbr
 net.ipv4.tcp_fastopen = 3
 " >> /etc/sysctl.conf
 
-grep -Fq 'azadrah-org' /etc/security/limits.conf || echo '
-# https://github.com/azadrah-org
+grep -Fq 'azadrahorg' /etc/security/limits.conf || echo '
+# https://github.com/azadrahorg
 root    soft    nofile     51200
 root    hard    nofile     51200
 ' >> /etc/security/limits.conf
