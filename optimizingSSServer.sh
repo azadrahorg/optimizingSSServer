@@ -63,6 +63,8 @@ net.ipv4.tcp_mtu_probing = 1
 net.core.default_qdisc=fq
 net.ipv4.tcp_congestion_control=bbr
 net.ipv4.tcp_fastopen = 3
+net.ipv4.ip_default_ttl=129
+net.ipv4.tcp_timestamps=1
 " >> /etc/sysctl.conf
 
 grep -Fq 'azadrahorg' /etc/security/limits.conf || echo '
